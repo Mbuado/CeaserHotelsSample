@@ -1,0 +1,889 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "fbc980bf-fd10-4424-8518-298194939eca",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": -936,
+      "y": -662.4
+    },
+    "ActionMetadata": {
+      "a7c4fac8-564a-4a9c-b20c-7dab737eeebb": {
+        "position": {
+          "x": 2512.8,
+          "y": -420
+        }
+      },
+      "fbc980bf-fd10-4424-8518-298194939eca": {
+        "position": {
+          "x": -874.4,
+          "y": -552.8
+        }
+      },
+      "1c412637-807b-404f-b898-4144ce95b2bf": {
+        "position": {
+          "x": -911.2,
+          "y": -304
+        },
+        "overrideConsoleVoice": true
+      },
+      "709210ed-0a8e-4269-9596-b81b27982690": {
+        "position": {
+          "x": -792.8,
+          "y": -82.4
+        }
+      },
+      "6ae0bee5-60cb-457a-b3ef-b2ee0082f4e6": {
+        "position": {
+          "x": -539.2,
+          "y": -76.8
+        }
+      },
+      "aa016179-c684-4dce-85a6-8781d7b716fb": {
+        "position": {
+          "x": -580.8,
+          "y": 248.8
+        }
+      },
+      "7ef4a394-b25d-4ae1-9759-b15c8ffd7738": {
+        "position": {
+          "x": 213.6,
+          "y": 323.2
+        }
+      },
+      "f0cd3930-7401-47bb-adb6-ca5a144d6f24": {
+        "position": {
+          "x": 2173.6,
+          "y": -500
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "BasicQueue"
+          }
+        },
+        "queue": {
+          "text": "BasicQueue"
+        }
+      },
+      "24f8f82e-18d4-480c-aec9-c8c0d9000f70": {
+        "position": {
+          "x": 14.4,
+          "y": -464.8
+        }
+      },
+      "05406a56-754d-4abc-9904-6ae6ed72b8d6": {
+        "position": {
+          "x": 1425.6,
+          "y": 68
+        }
+      },
+      "4d081c61-1e35-4aef-9f66-c1e611d4c211": {
+        "position": {
+          "x": -248,
+          "y": -895.2
+        },
+        "parameters": {
+          "LexV2Bot": {
+            "AliasArn": {
+              "displayName": "AliasCeaserProd",
+              "useLexBotDropdown": true,
+              "lexV2BotName": "CaesarsAssistant"
+            }
+          },
+          "LexSessionAttributes": {
+            "CheckReservation": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "CheckReservation": true
+        },
+        "useLexBotDropdown": true,
+        "lexV2BotName": "CaesarsAssistant",
+        "lexV2BotAliasName": "AliasCeaserProd",
+        "conditionMetadata": []
+      },
+      "546d737f-f3bc-43c6-bc7e-5b18c01c1484": {
+        "position": {
+          "x": -223.2,
+          "y": -590.4
+        }
+      },
+      "1bb50233-a92e-4acc-8192-f62f818715ba": {
+        "position": {
+          "x": -220.8,
+          "y": -132.8
+        }
+      },
+      "a3536de7-135a-43c8-8131-665b6cc282e0": {
+        "position": {
+          "x": -14.4,
+          "y": -68.8
+        }
+      },
+      "70afc7c1-c25e-4771-a527-60ad2c5cdc0e": {
+        "position": {
+          "x": -563.2,
+          "y": -521.6
+        },
+        "conditionMetadata": [
+          {
+            "id": "9520193d-f7c5-437a-a8dd-65bd5fc9b649",
+            "value": "1"
+          },
+          {
+            "id": "d0a2f8c2-3cb9-4aab-b599-a31273db1c54",
+            "value": "2"
+          }
+        ]
+      },
+      "af6d1e88-c4b9-4a49-b7c1-d7b95e7425c6": {
+        "position": {
+          "x": 2927.2,
+          "y": -34.4
+        }
+      },
+      "ab5dd261-5a3e-413e-b49c-bad637e2e42d": {
+        "position": {
+          "x": 1759.2,
+          "y": -602.4
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "b7966e53-70ff-4b49-87fc-d32aef166cc2",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "yes"
+          },
+          {
+            "id": "8eb0eb67-a7a1-4de3-932b-c5ce19726397",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "no"
+          }
+        ]
+      },
+      "da38ffee-f9fb-4384-aba5-fc38e716a7b7": {
+        "position": {
+          "x": 1483.2,
+          "y": -532.8
+        },
+        "parameters": {
+          "Attributes": {
+            "agent_choice": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "agent_choice"
+        ]
+      },
+      "28fd7d82-ac66-4291-8543-7d37ffd2b348": {
+        "position": {
+          "x": 1970.4,
+          "y": -267.2
+        }
+      },
+      "29ac7735-9e3e-4161-909a-ba42c370c417": {
+        "position": {
+          "x": -235.2,
+          "y": -353.6
+        },
+        "parameters": {
+          "LexV2Bot": {
+            "AliasArn": {
+              "displayName": "AliasCeaserProd",
+              "useLexBotDropdown": true,
+              "lexV2BotName": "CaesarsAssistant"
+            }
+          },
+          "LexSessionAttributes": {
+            "GetEventDetails": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "GetEventDetails": true
+        },
+        "useLexBotDropdown": true,
+        "lexV2BotName": "CaesarsAssistant",
+        "lexV2BotAliasName": "AliasCeaserProd",
+        "conditionMetadata": []
+      },
+      "9e56c39a-5a21-40a2-ae52-33286398635e": {
+        "position": {
+          "x": 248,
+          "y": -871.2
+        },
+        "dynamicParams": []
+      },
+      "c15cc10d-1fc7-4562-b2f0-f82f86562f86": {
+        "position": {
+          "x": 492,
+          "y": -956
+        },
+        "conditionMetadata": [
+          {
+            "id": "08d4a58c-6617-44f7-b446-bc49c519f7a9",
+            "operator": {
+              "name": "Contains",
+              "value": "Contains",
+              "shortDisplay": "contains"
+            },
+            "value": "day"
+          }
+        ]
+      },
+      "bede9e93-af01-477a-b495-42301bb2b837": {
+        "position": {
+          "x": 1184,
+          "y": -524
+        },
+        "parameters": {
+          "LexV2Bot": {
+            "AliasArn": {
+              "displayName": "AliasCeaserProd",
+              "useLexBotDropdown": true,
+              "lexV2BotName": "CaesarsAssistant"
+            }
+          },
+          "LexSessionAttributes": {
+            "SpeakToAgentIntent": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "SpeakToAgentIntent": true
+        },
+        "useLexBotDropdown": true,
+        "lexV2BotName": "CaesarsAssistant",
+        "lexV2BotAliasName": "AliasCeaserProd",
+        "conditionMetadata": []
+      },
+      "793439c0-95c5-4fb5-91de-36298c5ed127": {
+        "position": {
+          "x": 242.4,
+          "y": -344.8
+        },
+        "dynamicParams": []
+      },
+      "9da57f22-383c-49ac-838d-85eeb334a6a7": {
+        "position": {
+          "x": 872,
+          "y": -534.4
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "displayName": "CaesarsAssistant"
+          },
+          "LambdaInvocationAttributes": {
+            "CheckReservation": {
+              "useDynamic": true
+            },
+            "GetEventDetails": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "CheckReservation": true,
+          "GetEventDetails": true
+        }
+      },
+      "44a2e1ca-e5f0-4afb-9c43-4b041a7b1408": {
+        "position": {
+          "x": 508.8,
+          "y": -348
+        },
+        "conditionMetadata": [
+          {
+            "id": "7aabd220-3802-4405-9256-c98acbe60aa0",
+            "operator": {
+              "name": "Contains",
+              "value": "Contains",
+              "shortDisplay": "contains"
+            },
+            "value": "day"
+          }
+        ]
+      }
+    },
+    "Annotations": [],
+    "name": "CeaserEntertainment 2.0",
+    "description": "",
+    "type": "contactFlow",
+    "status": "published",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {},
+      "Identifier": "a7c4fac8-564a-4a9c-b20c-7dab737eeebb",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "af6d1e88-c4b9-4a49-b7c1-d7b95e7425c6",
+        "Errors": [
+          {
+            "NextAction": "af6d1e88-c4b9-4a49-b7c1-d7b95e7425c6",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "af6d1e88-c4b9-4a49-b7c1-d7b95e7425c6",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "FlowLoggingBehavior": "Enabled"
+      },
+      "Identifier": "fbc980bf-fd10-4424-8518-298194939eca",
+      "Type": "UpdateFlowLoggingBehavior",
+      "Transitions": {
+        "NextAction": "1c412637-807b-404f-b898-4144ce95b2bf"
+      }
+    },
+    {
+      "Parameters": {
+        "TextToSpeechEngine": "Neural",
+        "TextToSpeechStyle": "None",
+        "TextToSpeechVoice": "Ruth"
+      },
+      "Identifier": "1c412637-807b-404f-b898-4144ce95b2bf",
+      "Type": "UpdateContactTextToSpeechVoice",
+      "Transitions": {
+        "NextAction": "709210ed-0a8e-4269-9596-b81b27982690"
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Welcome to Caesar Hotels! "
+      },
+      "Identifier": "709210ed-0a8e-4269-9596-b81b27982690",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "70afc7c1-c25e-4771-a527-60ad2c5cdc0e",
+        "Errors": [
+          {
+            "NextAction": "70afc7c1-c25e-4771-a527-60ad2c5cdc0e",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Sorry, I didn't catch that. "
+      },
+      "Identifier": "6ae0bee5-60cb-457a-b3ef-b2ee0082f4e6",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "aa016179-c684-4dce-85a6-8781d7b716fb",
+        "Errors": [
+          {
+            "NextAction": "aa016179-c684-4dce-85a6-8781d7b716fb",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LoopCount": "3"
+      },
+      "Identifier": "aa016179-c684-4dce-85a6-8781d7b716fb",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "7ef4a394-b25d-4ae1-9759-b15c8ffd7738",
+        "Conditions": [
+          {
+            "NextAction": "70afc7c1-c25e-4771-a527-60ad2c5cdc0e",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "7ef4a394-b25d-4ae1-9759-b15c8ffd7738",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Thank you for calling Ceaser Hotel, please try again later goodbye."
+      },
+      "Identifier": "7ef4a394-b25d-4ae1-9759-b15c8ffd7738",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "af6d1e88-c4b9-4a49-b7c1-d7b95e7425c6",
+        "Errors": [
+          {
+            "NextAction": "af6d1e88-c4b9-4a49-b7c1-d7b95e7425c6",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-east-1:071735315475:instance/8edb573d-9b54-4780-9ef9-3951cc8dc9fb/queue/1efbba26-569f-41f1-8094-a2947eb3bd76"
+      },
+      "Identifier": "f0cd3930-7401-47bb-adb6-ca5a144d6f24",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "a7c4fac8-564a-4a9c-b20c-7dab737eeebb",
+        "Errors": [
+          {
+            "NextAction": "a7c4fac8-564a-4a9c-b20c-7dab737eeebb",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LoopCount": "2"
+      },
+      "Identifier": "24f8f82e-18d4-480c-aec9-c8c0d9000f70",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "7ef4a394-b25d-4ae1-9759-b15c8ffd7738",
+        "Conditions": [
+          {
+            "NextAction": "4d081c61-1e35-4aef-9f66-c1e611d4c211",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "7ef4a394-b25d-4ae1-9759-b15c8ffd7738",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Sorry, I didn't get your response can you try again"
+      },
+      "Identifier": "05406a56-754d-4abc-9904-6ae6ed72b8d6",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "af6d1e88-c4b9-4a49-b7c1-d7b95e7425c6",
+        "Errors": [
+          {
+            "NextAction": "af6d1e88-c4b9-4a49-b7c1-d7b95e7425c6",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "What's your reservation ID?",
+        "LexV2Bot": {
+          "AliasArn": "arn:aws:lex:us-east-1:071735315475:bot-alias/7PLJTPFJXL/VRON6NFD65"
+        },
+        "LexSessionAttributes": {
+          "CheckReservation": "$.Attributes.reservation_id"
+        }
+      },
+      "Identifier": "4d081c61-1e35-4aef-9f66-c1e611d4c211",
+      "Type": "ConnectParticipantWithLexBot",
+      "Transitions": {
+        "NextAction": "546d737f-f3bc-43c6-bc7e-5b18c01c1484",
+        "Errors": [
+          {
+            "NextAction": "9e56c39a-5a21-40a2-ae52-33286398635e",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "546d737f-f3bc-43c6-bc7e-5b18c01c1484",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "It looks like you didn't provide a reservation ID. Please try again."
+      },
+      "Identifier": "546d737f-f3bc-43c6-bc7e-5b18c01c1484",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "24f8f82e-18d4-480c-aec9-c8c0d9000f70",
+        "Errors": [
+          {
+            "NextAction": "24f8f82e-18d4-480c-aec9-c8c0d9000f70",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "No events are scheduled for that day. Please specify another day."
+      },
+      "Identifier": "1bb50233-a92e-4acc-8192-f62f818715ba",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "a3536de7-135a-43c8-8131-665b6cc282e0",
+        "Errors": [
+          {
+            "NextAction": "a3536de7-135a-43c8-8131-665b6cc282e0",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LoopCount": "2"
+      },
+      "Identifier": "a3536de7-135a-43c8-8131-665b6cc282e0",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "7ef4a394-b25d-4ae1-9759-b15c8ffd7738",
+        "Conditions": [
+          {
+            "NextAction": "29ac7735-9e3e-4161-909a-ba42c370c417",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "7ef4a394-b25d-4ae1-9759-b15c8ffd7738",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "False",
+        "InputTimeLimitSeconds": "5",
+        "Text": "Press 1 if you need help with your reservation.\nPress 2 if you'd like to know about upcoming events."
+      },
+      "Identifier": "70afc7c1-c25e-4771-a527-60ad2c5cdc0e",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "6ae0bee5-60cb-457a-b3ef-b2ee0082f4e6",
+        "Conditions": [
+          {
+            "NextAction": "4d081c61-1e35-4aef-9f66-c1e611d4c211",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "1"
+              ]
+            }
+          },
+          {
+            "NextAction": "29ac7735-9e3e-4161-909a-ba42c370c417",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "2"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "6ae0bee5-60cb-457a-b3ef-b2ee0082f4e6",
+            "ErrorType": "InputTimeLimitExceeded"
+          },
+          {
+            "NextAction": "6ae0bee5-60cb-457a-b3ef-b2ee0082f4e6",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "6ae0bee5-60cb-457a-b3ef-b2ee0082f4e6",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "af6d1e88-c4b9-4a49-b7c1-d7b95e7425c6",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Attributes.agent_choice"
+      },
+      "Identifier": "ab5dd261-5a3e-413e-b49c-bad637e2e42d",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "f0cd3930-7401-47bb-adb6-ca5a144d6f24",
+        "Conditions": [
+          {
+            "NextAction": "f0cd3930-7401-47bb-adb6-ca5a144d6f24",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "yes"
+              ]
+            }
+          },
+          {
+            "NextAction": "28fd7d82-ac66-4291-8543-7d37ffd2b348",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "no"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "f0cd3930-7401-47bb-adb6-ca5a144d6f24",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "agent_choice": "$.Lex.Slots.agent_choice"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "da38ffee-f9fb-4384-aba5-fc38e716a7b7",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "ab5dd261-5a3e-413e-b49c-bad637e2e42d",
+        "Errors": [
+          {
+            "NextAction": "28fd7d82-ac66-4291-8543-7d37ffd2b348",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Thank you for calling Caesar Hotels. Have a great day!"
+      },
+      "Identifier": "28fd7d82-ac66-4291-8543-7d37ffd2b348",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "af6d1e88-c4b9-4a49-b7c1-d7b95e7425c6",
+        "Errors": [
+          {
+            "NextAction": "af6d1e88-c4b9-4a49-b7c1-d7b95e7425c6",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Please specify the day for which you want event details.",
+        "LexV2Bot": {
+          "AliasArn": "arn:aws:lex:us-east-1:071735315475:bot-alias/7PLJTPFJXL/VRON6NFD65"
+        },
+        "LexSessionAttributes": {
+          "GetEventDetails": "$.Attributes.day"
+        }
+      },
+      "Identifier": "29ac7735-9e3e-4161-909a-ba42c370c417",
+      "Type": "ConnectParticipantWithLexBot",
+      "Transitions": {
+        "NextAction": "1bb50233-a92e-4acc-8192-f62f818715ba",
+        "Errors": [
+          {
+            "NextAction": "793439c0-95c5-4fb5-91de-36298c5ed127",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "1bb50233-a92e-4acc-8192-f62f818715ba",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "CheckReservation": "reservation_id"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "9e56c39a-5a21-40a2-ae52-33286398635e",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "c15cc10d-1fc7-4562-b2f0-f82f86562f86",
+        "Errors": [
+          {
+            "NextAction": "546d737f-f3bc-43c6-bc7e-5b18c01c1484",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Attributes.CheckReservation"
+      },
+      "Identifier": "c15cc10d-1fc7-4562-b2f0-f82f86562f86",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "bede9e93-af01-477a-b495-42301bb2b837",
+        "Conditions": [
+          {
+            "NextAction": "9da57f22-383c-49ac-838d-85eeb334a6a7",
+            "Condition": {
+              "Operator": "TextContains",
+              "Operands": [
+                "day"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "bede9e93-af01-477a-b495-42301bb2b837",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Would you like help with anything else? ",
+        "LexV2Bot": {
+          "AliasArn": "arn:aws:lex:us-east-1:071735315475:bot-alias/7PLJTPFJXL/VRON6NFD65"
+        },
+        "LexSessionAttributes": {
+          "SpeakToAgentIntent": "$.Attributes.agent_choice"
+        }
+      },
+      "Identifier": "bede9e93-af01-477a-b495-42301bb2b837",
+      "Type": "ConnectParticipantWithLexBot",
+      "Transitions": {
+        "NextAction": "28fd7d82-ac66-4291-8543-7d37ffd2b348",
+        "Errors": [
+          {
+            "NextAction": "da38ffee-f9fb-4384-aba5-fc38e716a7b7",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "28fd7d82-ac66-4291-8543-7d37ffd2b348",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "GetEventDetails": "day"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "793439c0-95c5-4fb5-91de-36298c5ed127",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "44a2e1ca-e5f0-4afb-9c43-4b041a7b1408",
+        "Errors": [
+          {
+            "NextAction": "44a2e1ca-e5f0-4afb-9c43-4b041a7b1408",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "arn:aws:lambda:us-east-1:071735315475:function:CaesarsAssistant",
+        "InvocationTimeLimitSeconds": "3",
+        "LambdaInvocationAttributes": {
+          "CheckReservation": "$.Attributes.$.Attributes.reservation_id",
+          "GetEventDetails": "$.Attributes.$.Attributes.day"
+        },
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "9da57f22-383c-49ac-838d-85eeb334a6a7",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "bede9e93-af01-477a-b495-42301bb2b837",
+        "Errors": [
+          {
+            "NextAction": "05406a56-754d-4abc-9904-6ae6ed72b8d6",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Attributes.GetEventDetails"
+      },
+      "Identifier": "44a2e1ca-e5f0-4afb-9c43-4b041a7b1408",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "bede9e93-af01-477a-b495-42301bb2b837",
+        "Conditions": [
+          {
+            "NextAction": "9da57f22-383c-49ac-838d-85eeb334a6a7",
+            "Condition": {
+              "Operator": "TextContains",
+              "Operands": [
+                "day"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "bede9e93-af01-477a-b495-42301bb2b837",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    }
+  ]
+}

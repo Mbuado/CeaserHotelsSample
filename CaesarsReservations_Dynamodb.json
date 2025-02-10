@@ -1,0 +1,17 @@
+{
+  "reservation_id": {
+    "S": "12345"
+  },
+  "customer_name": {
+    "S": "John Doe"
+  },
+  "date": {
+    "S": "2024-02-10"
+  },
+  "restaurant": {
+    "S": "Gordon Ramsay Steak"
+  },
+  "time": {
+    "S": "7:00 PM"
+  }
+}
